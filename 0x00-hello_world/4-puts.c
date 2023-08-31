@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - Prints quote
  *
- *Return: zero on success
+ *Return: 0 on success
  *\
 int main(void)
 {

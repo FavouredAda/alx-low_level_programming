@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - Prints quote
- *   *
- *    * Return: zero on success
- *     *
- *      */
+ * main - Prints quote
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
