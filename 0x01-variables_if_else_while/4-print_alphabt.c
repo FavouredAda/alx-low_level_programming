@@ -8,15 +8,24 @@
  */
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 
-	for (letter = 'a', letter <= 'z', letter++)
+	while (letter <= 'z')
 	{
-		if (letter != 'q' && != 'e')
+		if (letter == 'e')
+		{
+			letter++;
+		}
+		else if (letter == 'q')
+		{
+			letter++;
+		}
+		else
 		{
 			putchar(letter);
+			letter++;
 		}
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
